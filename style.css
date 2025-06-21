@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+}
+
+body{
+    background-image: linear-gradient(120deg,#63181B,#FED9B7);
+    color: white;
+    min-height:100vh;
+}
+
+h1,
+form,
+.todo-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+input,
+button{
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+.input-box,
+.add-button{
+    padding:0.5rem;
+
+}
